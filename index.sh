@@ -35,7 +35,7 @@ if [ -z "$destination_port" ]; then destination_port="8085"; fi
 str="DESTINATION_PORT=$destination_port"
 file+=$str
 
-echo $file > .env
+echo $"$file" > .env
 echo ""
 
 echo "A. Prepare docker-compose.yml & app.conf"
