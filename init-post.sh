@@ -8,7 +8,7 @@ domain=$(read_var DOMAIN .env)
 destination_name=$(read_var DESTINATION_NAME .env)
 destination_port=$(read_var DESTINATION_PORT .env)
 
-str="        proxy_pass $destination_name:$destination_port;"
+str="        proxy_pass http://$destination_name:$destination_port;"
 echo $str   
 awk -v line=26 -v new_content="$str" '{
         if (NR == line) {
