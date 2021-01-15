@@ -44,3 +44,5 @@ echo "B. Add Certificates"
 ./init-letsencrypt.sh
 echo "C. Rewrite app.conf"
 ./init-post.sh
+echo "D. Run 'docker-compose up'"
+docker-compose up
