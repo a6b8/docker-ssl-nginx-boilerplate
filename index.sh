@@ -20,7 +20,7 @@ str="EMAIL=$email\n"
 file+=$str
 echo ""
 
-echo " Set Destination Name (default: placceholder)"
+echo " Set Destination Name (default: placeholder)"
 printf " >> "
 read destination_name
 if [ -z "$destination_name" ]; then destination_name="placeholder"; fi
