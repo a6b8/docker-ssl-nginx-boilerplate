@@ -5,16 +5,20 @@ This is the fastest way to setup a webserver with a https connection by using le
 
 1. Setup your Nameserver
 Point a 'A' oder 'CNAME' Record to your Server IP
-2. 
+
+1. clone repository
 ```
-git clone 
+git clone https://github.com/a6b8/docker-ssl-nginx-boilerplate.git
 ```
 
-3. 
+1. change directory
 ```
 cd docker-ssl-nginx-boilerplate
 ```
 
-4.
+1. Run bash sccript
 ```
 ./index.sh
+```
+
+1. Follow the prompt (domain & email are required)
