@@ -20,5 +20,3 @@ cd docker-ssl-nginx-boilerplate
 ```
 ./index.sh
 ```
-
-5. Follow the prompt (domain & email are required
